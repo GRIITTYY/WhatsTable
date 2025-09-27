@@ -40,7 +40,7 @@ def rainbow_divider():
                     """, unsafe_allow_html=True)
 
 # HOME PAGE
-if selected_page == "WhatsTable Home":
+if selected_page == "Home":
     st.markdown("""
         <div class="title-container">
             <h1 class="title" style="font-size: 3em">WhatsTable</h1>
@@ -85,7 +85,7 @@ if selected_page == "WhatsTable Home":
         st.markdown('</div>', unsafe_allow_html=True)
 
 # ABOUT PAGE
-elif selected_page == "About WhatsTable":
+elif selected_page == "About":
     with st.container():
         st.markdown('<h2 class="title" style="font-size: 2em; text-align:left;">About WhatsTable</h2>', unsafe_allow_html=True)
         st.markdown("""
