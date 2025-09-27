@@ -26,7 +26,7 @@ st.markdown("""
 with st.sidebar:
     selected_page = option_menu(
         "Menu", 
-        ["WhatsTable Home", "About WhatsTable"], 
+        ["Home", "About"], 
         icons=["house-door-fill", "info-circle-fill"], 
         menu_icon="list-ul",
         styles={"nav-link-selected": {"background-color": "#2E8B57"}}
