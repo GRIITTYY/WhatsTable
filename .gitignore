@@ -1,0 +1,14 @@
+# Private Data and Generated Output
+/data/
+*.csv
+
+# Python Artifacts
+__pycache__/
+*.pyc
+/.venv
+/venv
+/env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+test_notebook.ipynb
