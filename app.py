@@ -99,8 +99,8 @@ elif selected_page == "About":
         st.markdown('<h3 style="color: #2E8B57;">How It Works</h3>', unsafe_allow_html=True)
         st.markdown("""
         1.  **Upload:** Provide the `.zip` file directly exported from WhatsApp.
-        2.  **Extract:** We find and reads the `.txt` file from the archive.
-        3.  **Parse:** We intelligently process each chat message with it's respective `Timestamp` and `Sender`.
+        2.  **Extract:** WhatsTable find and reads the `.txt` file from the archive.
+        3.  **Parse:** WhatsTable intelligently processes each chat message with it's respective `Timestamp` and `Sender`.
         4.  **Display:** The cleaned data is presented in a `table` and made available for download.
         """)
     st.markdown('</div>', unsafe_allow_html=True)
